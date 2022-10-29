@@ -580,17 +580,37 @@ section {
   font-weight: 500;
 }
 
-.project-title {
-  padding: 2rem 0;
+.projects-sort {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: var(--color-secondary-1);
+}
+.projects-sort svg {
+  background-color: var(--color-secondary-1);
+  padding: 0.3rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.projects-sort i {
+  align-self: center;
+  font-size: 1.7rem;
+}
+.projects-sort .project-title {
   text-align: center;
   font-family: "Mina", sans-serif;
+  margin-left: 1rem;
 }
 
 .project {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-left: 8rem;
   padding-right: 8.7rem;
   height: 100vh;
