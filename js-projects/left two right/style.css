@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.lefttoright {
+    background-color: black;
+    position: relative;
+    color: aquamarine;
+    
+
+}
+
+h1{
+    position: absolute;
+    width: 100%;
+    left:0;
+    top:0;
+
+}

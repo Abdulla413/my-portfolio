@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Lora:ital,wght@1,600&family=Noto+Kufi+Arabic:wght@300&display=swap');
+
+
+body{
+    padding: 0;
+    margin:0;
+    background-color: rgb(46,77,167);
+    color: azure;
+    font-family: 'DM Mono', monospace;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* font-family: 'Lora', serif; */
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Noto Kufi Arabic', sans-serif;  */
+    }
+
+h1{
+  
+    font-style: italic;
+}
+
+.year {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.countdown{
+    display: flex;
+    margin: 20px;
+    background-color: rgb(0, 0, 0, 0.1);
+    height: 120px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown div{
+    margin: 0 15px;
+    font-size: 3rem;
+    font-weight: 500;
+    position: relative;
+    margin-top: -30px;
+    text-align: center;
+    width: 100px;
+}
+
+.countdown div::before{
+    content: '';
+    position: absolute;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.countdown #day::before{
+    
+    content: 'Days';
+}
+.countdown #hour::before{
+   
+    content: 'Hours';
+}
+.countdown #mnt::before{
+   
+    content: 'Minutes';
+}
+.countdown #scd::before{
+    content: 'Seconds';
+}
