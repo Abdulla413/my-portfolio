@@ -63,6 +63,9 @@ p{
         font-size: 3rem !important;
         font-weight: 600;
         font-family: 'Patrick Hand SC', cursive;
+        span{
+            color: var(--color-secondary);
+        }
     }
 
     h2{
@@ -800,6 +803,10 @@ section{
 
 .project7{
     background-color: var(--color-secondary-5);
+    flex-direction: row-reverse;
+}
+.project8{
+    background-color: var(--color-secondary-3);
     flex-direction: row-reverse;
 }
 
