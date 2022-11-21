@@ -716,6 +716,12 @@ section {
   flex-direction: row-reverse;
 }
 
+.project6 {
+  background-color: var(--color-secondary-5);
+  flex-direction: row-reverse;
+  margin-top: -60px;
+}
+
 .project7 {
   background-color: var(--color-secondary-5);
   flex-direction: row-reverse;
